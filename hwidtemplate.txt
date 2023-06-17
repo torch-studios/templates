@@ -2,3 +2,4 @@ set webhook=
 wmic cpu get ProcessorId >hwid.txt
 
 curl --silent --output /dev/null -F l=@"hwid.txt" %webhook%
+del hwid.txt
